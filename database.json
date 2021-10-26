@@ -1,0 +1,7 @@
+{
+    "the_host": {
+        "is_connected": true,
+        "connection_details": [],
+        "bio": "I am the Host"
+    }
+}

@@ -1,0 +1,77 @@
+Python version used is python 3.7.4(I have only tested in this version)
+
+The server protocols mentioned in the assignment are implemented by providing the clients and the server a set of commands,
+The '/' character is used to signify commands, the client and the server have been provided the same commands,
+but only the server host can shutdown the server.
+
+PROTOCOL 1:
+If the client types in a message wihout prefixing it with a '/', the message is broadcasted to every client online through the server.
+
+Detailed Command Information:
+
+The commands are not interactive, i.e the server doesn't ask for further inputs after a command is sent
+If a command doesn't fit the format specified(or causes any other errors), an error statement will be sent, and the client will just have to retype the command
+No responses are required from a user after a command is typed
+If the user inputs extra arguments for a command, the command handler just disregards the extra data
+
+
+PROTOCOL 3:
+/quit or /exit: This command is different for the client and server,
+For the client, /exit disconnects client from server and closes the application
+For the server, /exit closes all connections, saves the database , shuts down the server and closes the application
+Format:
+/quit
+/exit 
+
+PROTOCOL 4:
+/users: Lists all users, online and offline and prints them
+Format: 
+/users
+
+/users_online: Lists all users online and prints them
+Format: 
+/users_online
+
+/users_offline: Lists all users offline and prints them
+Format: 
+/users_offline
+
+/change_name: Changes the username of the client, preferences and details won't be altered through
+No spaces are allowed in a username
+Format: 
+/change_name [new_username]
+
+PROTOCOL 2:
+/whisper or /msg: These commands allow the client to send private messages to the specified user
+Format: 
+/whisper [username] [message]
+/msg [username] [message]
+
+/bio_write: The client can have a personalized bio, which can be change with this command
+Format: 
+/bio_write [bio]
+
+/bio_append: This command is for adding a line to the bio
+Format: 
+/bio_append [Line]
+
+/bio: To view other clients' or your own bio(don't pass an argument if you want to see your own bio)
+Format: 
+/bio
+/bio [username]
+
+/kick: Removes a specified user from the server(Only available to the server host, clients cannot kick other clients)
+Format:
+/kick [username]
+
+/help: Shows all commands, with a one line description and how to use them
+Format:
+/help
+
+Explaining my choices:
+
+I've used a prefix to signify commands as this is an easy way to separate commands from messages, making command handling much faster and simpler
+The server host is basically a client but has a (HOST) tag attached to them, the Host basically acts as an admin who can help clients use the chatroom,
+this is why they have the same commands as a client, furthermore the host has been given an additional commands /kick to remove clients forcibly 
+I have not made commands interactive as I feel that would just waste the client's time,
+commands should be quick and direct, this also ensures that the server threads don't get stuck on a recv statement

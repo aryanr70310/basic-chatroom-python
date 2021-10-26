@@ -1,0 +1,41 @@
+02/10/2021 01:46:40 PM The server has started accepting connections at ('127.0.0.1', 4000)
+02/10/2021 01:48:38 PM BOB has joined the server
+02/10/2021 01:49:16 PM <The_host>(HOST) Hello BOB welcome to the server
+02/10/2021 01:50:12 PM <The_host>(HOST) Try writing a message
+02/10/2021 01:51:08 PM <BOB> Hi
+02/10/2021 01:51:22 PM <BOB> Could you see my message?
+02/10/2021 01:51:27 PM <The_host>(HOST) Yes
+02/10/2021 01:51:31 PM <BOB> Cool
+02/10/2021 01:53:18 PM xXtomm123xX has joined the server
+02/10/2021 01:53:34 PM <BOB> Hi tomm
+02/10/2021 01:53:49 PM <xXtomm123xX> Hello
+02/10/2021 01:54:30 PM <The_host>(HOST) You can now chat to each other
+02/10/2021 01:55:47 PM roos has joined the server
+02/10/2021 01:55:57 PM <roos> Hi everyone
+02/10/2021 01:56:19 PM <roos> I misclicked while adding my name can I change it?
+02/10/2021 01:56:44 PM <The_host>(HOST) Yes you can try the command /change_name
+02/10/2021 01:56:52 PM <roos> Oh cool thx
+02/10/2021 01:57:22 PM roos has changed their name to groot
+02/10/2021 01:57:30 PM <groot> Oh it worked thx
+02/10/2021 01:58:05 PM <BOB> I have to leave now, can I use a keyboard interrupt?
+02/10/2021 01:58:38 PM <The_host>(HOST) You could use a keyboard interrupt, but it would be better if you used the command /exit
+02/10/2021 01:59:07 PM <xXtomm123xX> Bye BOB
+02/10/2021 01:59:17 PM <groot> Bye BOB
+02/10/2021 01:59:36 PM <BOB> bye guys
+02/10/2021 01:59:39 PM BOB has left the server
+02/10/2021 02:00:57 PM <xXtomm123xX> I'm also kinda busy rn so I hav to go sry groot
+02/10/2021 02:01:00 PM <groot> np
+02/10/2021 02:01:05 PM <groot> see you later
+02/10/2021 02:01:17 PM <xXtomm123xX> see ya
+02/10/2021 02:01:21 PM xXtomm123xX has left the server
+02/10/2021 02:01:30 PM <groot> Guess Im alone now
+02/10/2021 02:01:39 PM <The_host>(HOST) Pretty much
+02/10/2021 02:01:50 PM <groot> Bye I guess
+02/10/2021 02:01:55 PM <The_host>(HOST) Goodbye
+02/10/2021 02:02:21 PM groot has left the server
+02/10/2021 02:02:45 PM <The_host>(HOST) Guess I can close the server now
+02/10/2021 02:02:56 PM Closing connection
+02/10/2021 02:02:56 PM Server Closed Succesfully
+
+
+
